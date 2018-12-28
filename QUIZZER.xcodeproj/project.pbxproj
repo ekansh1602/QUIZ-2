@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3EB100216763DE00A13280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB0FF216763DE00A13280 /* AppDelegate.swift */; };
+		EC3EB105216763DE00A13280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB103216763DE00A13280 /* Main.storyboard */; };
+		EC3EB108216763DE00A13280 /* QUIZZER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB106216763DE00A13280 /* QUIZZER.xcdatamodeld */; };
+		EC3EB10A216763DE00A13280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB109216763DE00A13280 /* Assets.xcassets */; };
+		EC3EB10D216763DE00A13280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB10B216763DE00A13280 /* LaunchScreen.storyboard */; };
+		EC3EB1162167659000A13280 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB1152167659000A13280 /* Question.swift */; };
+		EC3EB11E21676EE700A13280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB11D21676EE700A13280 /* ViewController.swift */; };
+		EC3EB1212167717600A13280 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB11F2167717600A13280 /* note2.wav */; };
+		EC3EB1222167717600A13280 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB1202167717600A13280 /* note1.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC3EB0FC216763DE00A13280 /* QUIZZER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUIZZER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3EB0FF216763DE00A13280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3EB104216763DE00A13280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3EB107216763DE00A13280 /* QUIZZER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QUIZZER.xcdatamodel; sourceTree = "<group>"; };
+		EC3EB109216763DE00A13280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3EB10C216763DE00A13280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3EB10E216763DE00A13280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3EB1152167659000A13280 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EC3EB11D21676EE700A13280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC3EB11F2167717600A13280 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note2.wav; path = ../../../MUSIC/Xylophone/note2.wav; sourceTree = "<group>"; };
+		EC3EB1202167717600A13280 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note1.wav; path = ../../../MUSIC/Xylophone/note1.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3EB0F9216763DE00A13280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3EB0F3216763DE00A13280 = {
+			isa = PBXGroup;
+			children = (
+				EC3EB0FE216763DE00A13280 /* QUIZZER */,
+				EC3EB0FD216763DE00A13280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3EB0FD216763DE00A13280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EB0FC216763DE00A13280 /* QUIZZER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3EB0FE216763DE00A13280 /* QUIZZER */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EB11821676D6200A13280 /* Sounds */,
+				EC3EB1142167658300A13280 /* Model */,
+				EC3EB0FF216763DE00A13280 /* AppDelegate.swift */,
+				EC3EB11D21676EE700A13280 /* ViewController.swift */,
+				EC3EB103216763DE00A13280 /* Main.storyboard */,
+				EC3EB109216763DE00A13280 /* Assets.xcassets */,
+				EC3EB10B216763DE00A13280 /* LaunchScreen.storyboard */,
+				EC3EB10E216763DE00A13280 /* Info.plist */,
+				EC3EB106216763DE00A13280 /* QUIZZER.xcdatamodeld */,
+			);
+			path = QUIZZER;
+			sourceTree = "<group>";
+		};
+		EC3EB1142167658300A13280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EB1152167659000A13280 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC3EB11821676D6200A13280 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EB1202167717600A13280 /* note1.wav */,
+				EC3EB11F2167717600A13280 /* note2.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3EB0FB216763DE00A13280 /* QUIZZER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3EB111216763DE00A13280 /* Build configuration list for PBXNativeTarget "QUIZZER" */;
+			buildPhases = (
+				EC3EB0F8216763DE00A13280 /* Sources */,
+				EC3EB0F9216763DE00A13280 /* Frameworks */,
+				EC3EB0FA216763DE00A13280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUIZZER;
+			productName = QUIZZER;
+			productReference = EC3EB0FC216763DE00A13280 /* QUIZZER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3EB0F4216763DE00A13280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Avi Srivastava";
+				TargetAttributes = {
+					EC3EB0FB216763DE00A13280 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC3EB0F7216763DE00A13280 /* Build configuration list for PBXProject "QUIZZER" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3EB0F3216763DE00A13280;
+			productRefGroup = EC3EB0FD216763DE00A13280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3EB0FB216763DE00A13280 /* QUIZZER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3EB0FA216763DE00A13280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3EB10D216763DE00A13280 /* LaunchScreen.storyboard in Resources */,
+				EC3EB1212167717600A13280 /* note2.wav in Resources */,
+				EC3EB10A216763DE00A13280 /* Assets.xcassets in Resources */,
+				EC3EB1222167717600A13280 /* note1.wav in Resources */,
+				EC3EB105216763DE00A13280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3EB0F8216763DE00A13280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3EB1162167659000A13280 /* Question.swift in Sources */,
+				EC3EB100216763DE00A13280 /* AppDelegate.swift in Sources */,
+				EC3EB11E21676EE700A13280 /* ViewController.swift in Sources */,
+				EC3EB108216763DE00A13280 /* QUIZZER.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC3EB103216763DE00A13280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3EB104216763DE00A13280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3EB10B216763DE00A13280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3EB10C216763DE00A13280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3EB10F216763DE00A13280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3EB110216763DE00A13280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3EB112216763DE00A13280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QUIZZER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avi.QUIZZER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3EB113216763DE00A13280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QUIZZER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avi.QUIZZER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3EB0F7216763DE00A13280 /* Build configuration list for PBXProject "QUIZZER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3EB10F216763DE00A13280 /* Debug */,
+				EC3EB110216763DE00A13280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3EB111216763DE00A13280 /* Build configuration list for PBXNativeTarget "QUIZZER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3EB112216763DE00A13280 /* Debug */,
+				EC3EB113216763DE00A13280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC3EB106216763DE00A13280 /* QUIZZER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC3EB107216763DE00A13280 /* QUIZZER.xcdatamodel */,
+			);
+			currentVersion = EC3EB107216763DE00A13280 /* QUIZZER.xcdatamodel */;
+			path = QUIZZER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC3EB0F4216763DE00A13280 /* Project object */;
+}
